@@ -1,6 +1,4 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
 require 'heading.php';
 
 if(isset($_GET['home']) || count($_GET) == 0){
