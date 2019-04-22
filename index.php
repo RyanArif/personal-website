@@ -15,12 +15,12 @@ if(isset($_GET['home']) || count($_GET) == 0){
 	}
 	//resume
 	else if (isset($_GET['resume'])){
-		include 'include/resume.html';
+		Header("Location: /content/Resume.pdf");
 	}
 	//portfolio (see: https://github.com/RyanArif/TCC-Webfolio) for the actual project.
 	//this only checks if the user puts in something stupid like ?portfolio and sends them to the right place.
 	else if (isset($_GET['portfolio'])){
-		Header("Location: /content/portfolio");
+		Header("Location: /portfolio");
 	}
 ?>
 	<script>
