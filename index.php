@@ -5,7 +5,10 @@ require 'heading.php';
 if(isset($_GET['home']) || count($_GET) == 0){
 	htmlHeading('Home');
 	include 'include/home.html';
-		htmlFooter();
+	echo "<div class='w3-row-padding w3-padding-64 w3-container w3-light-grey'>";
+	include 'include/about.html';
+	echo "</div>";
+	htmlFooter();
 	}
 	//tutoring page
 	else if (isset($_GET['tutoring'])){
@@ -22,6 +25,9 @@ if(isset($_GET['home']) || count($_GET) == 0){
 	else if (isset($_GET['portfolio'])){
 		htmlHeading('Portfolio');
 		include 'include/portfolio.html';
+		echo "<div class='w3-row-padding w3-padding-64 w3-container w3-light-grey'>";
+		include 'include/about.html';
+		echo "</div>";
 		htmlFooter();
 	}
 ?>
