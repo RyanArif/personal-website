@@ -35,7 +35,6 @@ function htmlHeading($pageTitle)
             <div class='w3-top'>
                 <div class='w3-bar w3-blue w3-left-align w3-medium w3-card'>
                     <a href='?home' class='w3-button w3-hide-small w3-padding-large w3-hover-white'>Home</a>
-                    <a href='?tutoring' class='w3-button w3-hide-small w3-padding-large w3-hover-white'>Tutoring</a>
                     <a href='?resume' class='w3-button w3-hide-small w3-padding-large w3-hover-white'>Resume</a>
                 </div>
             </div>
@@ -43,7 +42,6 @@ function htmlHeading($pageTitle)
             <div class='w3-sidebar w3-bar-block w3-border-right' style='display:none;' id='sidebar'>
                 <button onclick='w3_close()' class='w3-bar-item w3-large'>Close &times;</button>
                 <a href='?home' class='w3-bar-item w3-button'>Home</a>
-                <a href='?tutoring' class='w3-bar-item w3-button'>Tutoring</a>
                 <a href='?resume' class='w3-bar-item w3-button'>Resume</a>
             </div>
             <div class='w3-blue'>
@@ -52,7 +50,7 @@ function htmlHeading($pageTitle)
             <!--Header-->
             <header class='w3-container w3-blue w3-center' style='padding:128px 16px'>
                 <h1 class='w3-jumbo'>RYAN ARIF</h1>
-                <h5 class='w3-large'>Tutor. Developer. Mathematician.</h5>
+                <h5 class='w3-large'>Roofer. Student. Developer.</h5>
             </header>
     ";
 }
@@ -61,7 +59,7 @@ function htmlFooter()
 {
     echo "<footer class='w3-container w3-padding-64 w3-center w3-opacity w3-blue'>
     <!--Please don't steal :( -->
-    <p>Ryan Arif<br>Copyright © 2019</p>
+    <p>Ryan Arif<br>Copyright © 2022</p>
 </footer>
 ";
 }
