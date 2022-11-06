@@ -3,17 +3,34 @@
     <h2 class="w3-xxlarge">Portfolio/Projects</h2>
     <h5>Click the underlined links to learn more about my various projects.</h5>
     <div class="w3-center w3-bar w3-blue">
-        <button class="w3-bar-item w3-button" onclick="openProject('thiswebsite')">This Website</button>
+      <button class="w3-bar-item w3-button" onclick="openProject('thiswebsite')">This Website</button>
+      <button class="w3-bar-item w3-button" onclick="openProject('succ')">SUCC</button>
+      <button class="w3-bar-item w3-button" onclick="openProject('bitgaming')">8-Bit Gaming</button>
       <!--<button class="w3-bar-item w3-button" onclick="openProject('test')">Test</button> -->
       <!--Cards go here--><br><br>
-      <div id="thiswebsite" class="proj w3-card-4 w3-center w3-light-grey">
+       <div id="thiswebsite" class="proj w3-card-4 w3-center w3-light-grey">
         <a href="https://github.com/RyanArif/personal-website" target="_blank"><h2 class="w3-hover-shadow w3-center">This Website!</h2></a>
         <p>
           This Website was created in 2018 to learn some basics of opening up a very simple website, which this certainly is. I started this website on a Digital Ocean Ubuntu LAMP droplet, which filled my needs at the time.
-          Now the website is being run in a Docker container, alongside some other projects. When I learned about Docker, I got it up and running as fast as possible! The website is ran on an Apache server with PHP
+          Now the website is being run in a Docker container, alongside some other projects. When I learned about Docker, I got it up and running as fast as possible! The website is running nginx and uses PHP. This allows me to more easily modify the website, and run other stuff alongside the website. 
         </p>
         <p>
           The website is completely open source, and is available on my GitHub page (see above). All code is my own -- except for the CSS, which is provided by W3, as well as the icons which are from Font Awesome.
+        </p>
+      </div>
+      <div id="succ" class="proj w3-card-4 w3-center w3-light-grey" style="display: none;">
+        <a href="https://github.com/LegendaryRyan/SUCC" target="_blank"><h2 class="w3-hover-shadow w3-center">Sticky's Uber Cheats Collection</h2></a>
+        <p>
+          Sticky's Uber Cheats Collection (SUCC) is an un-finished tool I made to help moderate a gameserver. A lot of people would join the server just to cheat and hack, and we would ban them. Our community required a high burden of proof for hackers, and we kept track of all of the evidence in a big, giant forum thread. The forum thread was hard to search, so when someone would come back off a hacking ban it was difficult to search for them and review old evidence, and to identify and log any alternate accounts. SUCC solved the issue by providing a searchable database where you could freely log information on cheaters, upload videos, write notes, etc. Logins were handled and verified through Steam. SUCC used PHP and MySQL to handle the backend, and looked terible in the front-end, but totally worked.
+        </p>
+        <p>
+          I never finished this project, but I got through to making basic functionality.
+        </p>
+      </div>
+    <div id="bitgaming" class="proj w3-card-4 w3-center w3-light-grey" style="display: none;">
+        <a href="https://github.com/8-bit-gaming" target="_blank"><h2 class="w3-hover-shadow w3-center">8-Bit Gaming</h2></a>
+        <p>
+          8-Bit Gaming is a gaming community. We have created several game servers, including servers for Garry's Mod, Minecraft, and SCP Secret Labs. For each one of these gameservers, we have created and implemented custom solutions for administrating the servers, custom content and gamemodes, focusing on deliverying high quality content for our users.
         </p>
       </div>
 
